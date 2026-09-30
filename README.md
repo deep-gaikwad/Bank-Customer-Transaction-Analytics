@@ -18,6 +18,8 @@ This project analyzes banking data across five connected datasets:
 
 The analysis focuses on customer profiles, account behavior, transaction patterns, branch performance, and loan activity.
 
+Developed as a practical **Data Analyst portfolio project** to demonstrate SQL querying, Python data analysis, and visualization skills.
+
 ---
 
 ## **Datasets**
@@ -72,6 +74,7 @@ Customer loan information.
 The project includes SQL queries covering important banking business questions.
 
 ### **Customer Analysis**
+
 - Customer count by city
 - Gender distribution
 - Customer income analysis
@@ -79,6 +82,7 @@ The project includes SQL queries covering important banking business questions.
 - High-income customer identification
 
 ### **Account Analysis**
+
 - Account type distribution
 - Active vs inactive accounts
 - Account balance analysis
@@ -86,6 +90,7 @@ The project includes SQL queries covering important banking business questions.
 - Branch-wise account analysis
 
 ### **Transaction Analysis**
+
 - Transaction type analysis
 - Total transaction amount
 - Average transaction amount
@@ -96,12 +101,14 @@ The project includes SQL queries covering important banking business questions.
 - High-value transaction identification
 
 ### **Branch Analysis**
+
 - Branch-wise customer activity
 - Branch account distribution
 - Branch transaction analysis
 - Branch performance analysis
 
 ### **Loan Analysis**
+
 - Loan type distribution
 - Loan status analysis
 - Total loan amount
@@ -129,92 +136,123 @@ Python and Pandas were used for:
 
 **Analysis Workflow:**
 
-```text
-Load Data
-   ↓
-Inspect Data
-   ↓
-Clean Data
-   ↓
-Transform Data
-   ↓
-Analyze Data
-   ↓
-Generate Insights
-   ↓
-Visualize Results
-Matplotlib Visualizations
-Visualizations Created
-City-wise Customer Count — Bar Chart
-Gender Distribution — Pie Chart
-Age Distribution — Histogram
-City-wise Annual Income — Bar Chart
-Account Type Distribution — Bar Chart
-Account Balance by Account Type — Bar Chart
-Transaction Type Analysis — Bar Chart
-Transaction Amount Distribution — Histogram
-Monthly Transaction Trend — Line Chart
-City-wise Transaction Amount — Bar Chart
-Customer Income vs Account Balance — Scatter Plot
-Transaction Amount vs Customer Income — Line Chart
-Top 10 Customers by Transaction Amount — Horizontal Bar Chart
-Loan Status Analysis — Stacked Bar Chart
-Correlation Analysis — Heatmap-style Visualization
-Key Business Areas
-Customer Behavior
+Load Data → Inspect Data → Clean Data → Transform Data → Analyze Data → Generate Insights → Visualize Results
 
-Analysis of customer demographics, age groups, cities, and annual income.
+---
 
-Account Performance
+## **Matplotlib Visualizations**
 
-Analysis of account types, account status, and account balances.
+### **Visualizations Created**
 
-Transaction Behavior
+1. City-wise Customer Count — Bar Chart
+2. Gender Distribution — Pie Chart
+3. Age Distribution — Histogram
+4. City-wise Annual Income — Bar Chart
+5. Account Type Distribution — Bar Chart
+6. Account Balance by Account Type — Bar Chart
+7. Transaction Type Analysis — Bar Chart
+8. Transaction Amount Distribution — Histogram
+9. Monthly Transaction Trend — Line Chart
+10. City-wise Transaction Amount — Bar Chart
+11. Customer Income vs Account Balance — Scatter Plot
+12. Transaction Amount vs Customer Income — Line Chart
+13. Top 10 Customers by Transaction Amount — Horizontal Bar Chart
+14. Loan Status Analysis — Stacked Bar Chart
+15. Correlation Analysis — Heatmap-style Visualization
 
-Analysis of transaction amounts, transaction types, channels, and transaction trends.
+All visualizations are generated programmatically and saved in the project output folder.
 
-Branch Activity
+---
 
-Analysis of branch-level customer and account activity.
+## **Key Business Areas Analyzed**
 
-Loan Portfolio
+### **Customer Behavior**
 
-Analysis of loan types, loan amounts, interest rates, and loan statuses.
+Analysis of customer demographics, age groups, cities, and annual income to understand the customer base.
 
-Project Structure
+### **Account Performance**
+
+Analysis of account types, account status, and account balances to understand account behavior.
+
+### **Transaction Behavior**
+
+Analysis of transaction amounts, transaction types, channels, and transaction trends to identify transaction patterns.
+
+### **Branch Activity**
+
+Analysis of branch-level customer and account activity to understand differences across banking locations.
+
+### **Loan Portfolio**
+
+Analysis of loan types, loan amounts, interest rates, and loan statuses to understand loan portfolio activity.
+
+---
+
+## **Project Structure**
+
 Bank-Customer-Transaction-Analytics/
 │
 ├── data/
+│   ├── customers.csv
+│   ├── accounts.csv
+│   ├── transactions.csv
+│   ├── branches.csv
+│   └── loans.csv
+│
 ├── sql/
+│   ├── database_setup.sql
+│   ├── customer_queries.sql
+│   ├── account_queries.sql
+│   ├── transaction_queries.sql
+│   ├── branch_queries.sql
+│   └── loan_queries.sql
+│
 ├── python/
+│   ├── data_analysis.py
+│   └── matplotlib_analysis.py
+│
 ├── output/
+│   ├── charts/
+│   └── analysis_results/
+│
 ├── Bank_Customer_Matplotlib_Analysis.ipynb
 ├── generate_bank_data.py
 ├── README.md
 └── requirements.txt
-Skills Demonstrated
 
-SQL | MySQL | Database Design | Data Cleaning | Data Analysis | EDA | Pandas | Python | Matplotlib | Data Visualization | Business Analysis | Joins | Subqueries | Group By | Window Functions | Statistical Analysis | Git & GitHub
+---
 
-Learning Outcomes
-Work with relational datasets
-Write business-focused SQL queries
-Analyze datasets using Pandas
-Perform exploratory data analysis
-Create meaningful visualizations
-Identify patterns and trends
-Translate raw data into business insights
-Organize and document a professional analytics project
-Conclusion
+## **Skills Demonstrated**
 
-The Bank Customer Transaction Analytics project demonstrates an end-to-end approach to banking data analysis using SQL and Python.
+SQL | MySQL | Database Design | Data Cleaning | Data Analysis | Exploratory Data Analysis | Pandas | Python | Matplotlib | Data Visualization | Business Analysis | Data Aggregation | Joins | Subqueries | Group By | Window Functions | Statistical Analysis | Git & GitHub
 
-By combining customer, account, transaction, branch, and loan data, the project provides a structured view of banking operations and customer behavior while demonstrating practical skills required for a Data Analyst role.
+---
 
-Author
+## **Learning Outcomes**
 
-Deep Gaikwad
+- Work with relational datasets
+- Write business-focused SQL queries
+- Analyze datasets using Pandas
+- Perform exploratory data analysis
+- Create meaningful visualizations
+- Identify patterns and trends
+- Translate raw data into business insights
+- Organize and document a professional analytics project
 
-Aspiring Data Analyst
+---
 
-Skills: Excel | SQL | Python | Pandas | Power BI | Data Analysis | Matplotlib
+## **Conclusion**
+
+The **Bank Customer Transaction Analytics** project demonstrates an end-to-end approach to banking data analysis using SQL and Python.
+
+By combining customer, account, transaction, branch, and loan data, the project provides a structured view of banking operations and customer behavior while demonstrating practical skills required for a **Data Analyst role**.
+
+---
+
+## **Author**
+
+**Deep Gaikwad**
+
+**Aspiring Data Analyst**
+
+**Skills:** Excel | SQL | Python | Pandas | Power BI | Data Analysis | Matplotlib
