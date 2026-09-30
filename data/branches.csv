@@ -1,0 +1,51 @@
+Branch_ID,Branch_Name,City,State,Manager_Name
+BR001,Branch 1,Kolkata,Delhi,Manager_1
+BR002,Branch 2,Bengaluru,Maharashtra,Manager_2
+BR003,Branch 3,Ahmedabad,Karnataka,Manager_3
+BR004,Branch 4,Hyderabad,Maharashtra,Manager_4
+BR005,Branch 5,Kolkata,Gujarat,Manager_5
+BR006,Branch 6,Surat,Karnataka,Manager_6
+BR007,Branch 7,Delhi,Maharashtra,Manager_7
+BR008,Branch 8,Kolkata,Tamil Nadu,Manager_8
+BR009,Branch 9,Ahmedabad,Tamil Nadu,Manager_9
+BR010,Branch 10,Hyderabad,Gujarat,Manager_10
+BR011,Branch 11,Bengaluru,Karnataka,Manager_11
+BR012,Branch 12,Ahmedabad,Tamil Nadu,Manager_12
+BR013,Branch 13,Ahmedabad,Maharashtra,Manager_13
+BR014,Branch 14,Delhi,Gujarat,Manager_14
+BR015,Branch 15,Chennai,Maharashtra,Manager_15
+BR016,Branch 16,Hyderabad,Gujarat,Manager_16
+BR017,Branch 17,Pune,Karnataka,Manager_17
+BR018,Branch 18,Ahmedabad,Gujarat,Manager_18
+BR019,Branch 19,Chennai,West Bengal,Manager_19
+BR020,Branch 20,Pune,Rajasthan,Manager_20
+BR021,Branch 21,Hyderabad,Gujarat,Manager_21
+BR022,Branch 22,Mumbai,Telangana,Manager_22
+BR023,Branch 23,Surat,Maharashtra,Manager_23
+BR024,Branch 24,Chennai,Telangana,Manager_24
+BR025,Branch 25,Jaipur,Gujarat,Manager_25
+BR026,Branch 26,Mumbai,Gujarat,Manager_26
+BR027,Branch 27,Surat,Rajasthan,Manager_27
+BR028,Branch 28,Delhi,Rajasthan,Manager_28
+BR029,Branch 29,Kolkata,Maharashtra,Manager_29
+BR030,Branch 30,Bengaluru,Rajasthan,Manager_30
+BR031,Branch 31,Jaipur,West Bengal,Manager_31
+BR032,Branch 32,Delhi,Rajasthan,Manager_32
+BR033,Branch 33,Hyderabad,Gujarat,Manager_33
+BR034,Branch 34,Delhi,Maharashtra,Manager_34
+BR035,Branch 35,Kolkata,Gujarat,Manager_35
+BR036,Branch 36,Hyderabad,Gujarat,Manager_36
+BR037,Branch 37,Jaipur,Delhi,Manager_37
+BR038,Branch 38,Kolkata,Maharashtra,Manager_38
+BR039,Branch 39,Pune,Gujarat,Manager_39
+BR040,Branch 40,Bengaluru,Delhi,Manager_40
+BR041,Branch 41,Jaipur,Delhi,Manager_41
+BR042,Branch 42,Pune,Maharashtra,Manager_42
+BR043,Branch 43,Surat,Telangana,Manager_43
+BR044,Branch 44,Jaipur,Gujarat,Manager_44
+BR045,Branch 45,Surat,West Bengal,Manager_45
+BR046,Branch 46,Hyderabad,Gujarat,Manager_46
+BR047,Branch 47,Pune,Rajasthan,Manager_47
+BR048,Branch 48,Bengaluru,West Bengal,Manager_48
+BR049,Branch 49,Kolkata,Rajasthan,Manager_49
+BR050,Branch 50,Ahmedabad,Gujarat,Manager_50
